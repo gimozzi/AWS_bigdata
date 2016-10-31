@@ -1,0 +1,12 @@
+sp project6
+
+1. bigram language model 을 읽어 AWS DynamoDB에 저장
+python DynamoDB_Import_S3.py 로 실행
+
+2. DynamoDB Table에 접근하여 특정 단어 조합의 빈도를 CLI에서 조회
+python DynamoDB_Query_CLI.py 로 실행
+무한루프로 입력 받으며
+table에 존재하는 단어 입력 시 count 출력
+없는 단어 입력 시 0 출력
+공백 입력 시프로그램 종료
+

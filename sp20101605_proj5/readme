@@ -1,0 +1,10 @@
+sp projcet5
+
+AWS EMR 에서 cluster를 생성하여 실행합니다.
+step type은 streaming program을 선택하고
+작성한 Mapper.py, Reducer.py를 등록하고
+input은 s3://sgcs15spproj5tokyo/out--ascil_.results.txt
+output은 자신의 버킷에 만들어지지 않은 폴더이름을 적어줍니다.
+
+
+
